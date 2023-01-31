@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/bootstrap.bundle.js" async></script>
+    <link rel="icon" type="image/png" href="krackp1.jpg"/>
+    <title>MMRT</title>
+    <style>
+        .image {
+            display: none;
+        }
+        .head{
+            text-align: center;
+            color:white;
+            font-family: 'Times New Roman', Times, serif;
+            background-image: url('back3.jpg');
+            background-size: cover;
+            font-size: 60px;
+            height: 80px;
+            text-shadow: 0 10 15 red;
+            width: 100%;
+            padding: 10px;
+            
+        }
+        #second{
+            align-items: center;
+            /*background-image: url('krackp.jpeg');*/
+            background-size: cover;
+        }
+        #bd{
+            margin-top: -32px;
+        }
+        body{
+            background-image: url("back3.jpg");
+            background-size: cover;
+        }
+        #btn-area{
+                margin-top: 10px;
+        }
+        .main{
+            margin: 10px;
+            width: 175px;
+            height: 220px;
+            border-radius: 10px;
+            box-shadow:0px 5px 10px;
+        }
+        .btn{
+            margin: 10px;
+            background-color: cyan;
+            color: black;
+            align-items: center;
+            font-weight: bolder;
+            box-shadow:0px 5px 10px ;
+        }
+        h4{
+            font-weight: bold;
+            text-align: center;
+            color:white;
+        }
+        .over{
+            box-shadow:0px 5px 10px ;
+            border-radius: 10px;
+            margin: 10px;
+        }
+
+        #footer{
+            color: aliceblue;
+            font-weight: bold;
+            scroll-behavior: smooth;
+        }
+        .btn:hover{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        .main:hover{
+            width: 195px;
+            height: 240px;
+            background-image:url("ravan1.jpg");
+        }
+        #img-area1:hover{
+            background-image:url("ravan1.jpg");
+            width: 195px;
+            height: 240px;
+        }       
+    </style>
+</head>
+ 
+<body>
+<div >
+    <div >
+       <!--<h6 class="head">▄︻┻ MASS MAHARAJA ︻┳═─-   -─═┳︻ MASS MAHARAJA ┻︻▄</h6>--> 
+       <h1 class="head">MASS MAHARAJA</h1>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <div id="img2">
+                <div id="btn-area">
+                <button class="btn btn-primary" onclick="direct()">top Director's introduced by RT</button>
+                <button class="btn btn-warning" onclick="police()">POLICE</button>
+                <button class="btn btn-danger" onclick="collect()">Top5 collection's</button>
+                <button class="btn btn-success" onclick="gopi()">HATRIK😎with Gopichand malinenei</button>
+                <button class="btn btn-light" onclick="puri()">HATRIK😎with PURI</button>
+                <button class="btn btn-secondary" onclick="up()">Up Comming</button>
+                <button class="btn btn-danger" onclick="da()">DoubleAction</button>
+                <button class="btn btn-warning" onclick="cr()">100 Cr's</button>
+                </div>
+                    <img class="main" id="img-area1" src="RAVITEJA1.jpg"/>
+                    <img class="main" id="img-area2" src="RAVITEJA1.jpg"/>
+                    <img class="main" id="img-area3" src="RAVITEJA1.jpg"/>
+                    <img class="main" id="img-area4" src="RAVITEJA1.jpg"/>
+                    <img class="main" id="img-area5" src="RAVITEJA1.jpg"/>
+            </div>
+        </div>
+        <div class="col-md-4" id="second">
+            
+                <center><img class="over" src="MMRT.jpg"></center> 
+            
+                  
+                    <h4>ℕ𝕚𝕔𝕜 ℕ𝕒𝕞𝕖 : ℝ𝕒𝕧𝕚𝕥𝕖𝕛𝕒</h4>
+                    <h4>𝔽𝕦𝕝𝕝 ℕ𝕒𝕞𝕖 : ℝ𝕒𝕧𝕚𝕤𝕙𝕒𝕟𝕜𝕖𝕣 𝕣𝕒𝕛𝕦</h4>
+                    <h4>𝔻𝕆𝔹 : 𝟚𝟞-𝟘𝟙-𝟙𝟡𝟞𝟠</h4>
+        </div>
+    </div>
+    <marquee behavior="scroll" direction="right" scrollamount="10"><h1 id="footer" >𝓢𝓔𝓛𝓕 𝓜𝓐𝓓𝓔 𝓜𝓐𝓢𝓢 𝓢𝓣𝓐𝓡</h1></marquee>
+    <marquee behavior="scroll" direction="left" scrollamount="15"><h3 id="footer" class="text-warning">:- by venkat....</h3></marquee>
+    <p >by venkat...</p>
+    <script>
+        var img1=document.getElementById('img-area1');
+        var img2=document.getElementById('img-area2');
+        var img3=document.getElementById('img-area3');
+        var img4=document.getElementById('img-area4');
+        var img5=document.getElementById('img-area5');
+        function police(){
+            img1.src='vikramp.jpeg';
+            img2.src='krackp1.jpg';
+            img3.src='touchp.jpeg';
+            img4.src='powerp.jpeg';
+            img5.src='vikramarkudu.jpeg';
+            img1.display='block';
+            Audio
+        }
+        function direct(){
+            img1.src='bobbykolli.jpg';
+            img2.src='gopi.jpg';
+            img3.src='boyapati-srinu.jpg';
+            img4.src='srinu.jpeg';
+            img5.src='harish.jpg';
+            img1.display='block';
+        }
+        function da(){
+            img1.src='vikramarkudu.jpeg';
+            img2.src='diskod.jpeg';
+            img3.style.display='none';
+            img4.style.display='none';
+            img5.style.display='none';
+        }
+        function up(){
+            img1.src='ravan.jpg';
+            img2.src='tiger.jpeg';
+            img3.src='ravan1.jpg';
+            img4.style.display='none';
+            img5.style.display='none';
+        }
+        function cr(){
+            img1.src='dhamaka100.jpeg';
+            img2.style.display='none';
+            img3.style.display='none';
+            img4.style.display='none';
+            img5.style.display='none';
+        }
+        function gopi(){
+            img1.src='krackp.jpeg';
+            img2.src='balupugopi.jpeg';
+            img3.src='dongopi.jpeg';
+           // img3.style.display='none';
+            img4.style.display='none';
+            img5.style.display='none';
+        }
+        function puri(){
+            img1.src='ammanannaopuri.jpg';
+            img2.src='idiotpuri.jpg';
+            img3.src='itlupuri.jpeg';
+           // img3.style.display='none';
+            img4.style.display='none';
+            img5.style.display='none';
+        }
+        function collect(){
+            img1.src='dhamaka100.jpeg';
+            img2.src='krackp.jpeg';
+            img3.src='rajathegreat.jpeg';
+            img4.src='kick2.jpeg';
+            img5.src='bengal.jpg';
+        }
+    </script>
+</body>
+</html>
+ <!--<div id="bd">
+        
+</div>--> 
+<!-- <button type="button" onclick="show1()" id="btnID1">RT</button>
+    <button type="button" onclick="show2()" id="btnID2">Dhamaka</button>
+    <img id="image1" src="raviteja.jpg" class="image"/>
+    <img id="image2" src="rt2.jpeg" class="image"/>
+    <script>
+        function show1() {
+            document.getElementById('image1').style.display = "block";
+            document.getElementById('image1').style.width="500px";
+            document.getElementById('image1').style.height="500px";
+        }
+        function show2() {
+            document.getElementById('image2').style.display = "block";
+            document.getElementById('image2').style.width="500px";
+            document.getElementById('image2').style.height="500px";
+        }
+    </script>-->

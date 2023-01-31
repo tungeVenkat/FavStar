@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/bootstrap.bundle.js" async></script>
+    <link rel="icon" type="image/png" href="RAVITEJA1.jpg"/>
+    <link rel="stylesheet" href="style.css">
+    <title>YourStar</title>
+    <style>
+         body{
+            background-image: url("dhamakammrt.png");
+            
+        }
+        .btn{
+            text-shadow: 0px 5px 15px;
+        }
+        .btn:hover{
+            background-color: yellow;
+            font-size: large;
+            color: black;
+            
+        }
+        .over:hover{
+            font-size: medium;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #ravi{
+            align-items: center;
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+            float: inline-end;
+            margin-top: 160px;
+        }
+         #ravi:hover{
+            display: none;
+           
+        }
+        #ravi1:hover{
+            background-image:url("RTbday.jpg");
+            background-size:cover;
+            width: 600px;
+            height: 600px;
+            border-radius: 50px;
+            opacity: 0.7px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid"><!--Y҉o҉u҉я-->
+          <a class="navbar-brand text-light" href="#"><h1>Favѕтαя</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light over" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light over" href="#">Latest</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-light over" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <button class="btn btn-success" onmousemove="search()" onmouseleave="search1()"><h4>ѵҽղkαԵ 𝐑𝐓𝐅</h4></button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 " id="ravi1">
+          <center><a href="MMRT.html"><img id="ravi" src="MMRT.jpeg"></a></center> 
+        </div>
+        <div class="col-md-4"></div>
+      </div>
+      <audio autoplay class="audiplay">
+        <source src="dhamaka.mp3">
+    </audio>
+    <script>
+      var ven=document.getElementById('venkat');
+      function search() {
+          ven.style.width='200px';
+          ven.style.height='200px';
+          ven.src="";
+
+
+      }
+      function search1(){
+        ven.style.display='none';
+      }
+    </script>
+</body>
+</html>
